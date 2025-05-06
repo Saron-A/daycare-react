@@ -27,14 +27,14 @@ const Navigation = () => {
 
 const Header = () => {
   return (
-    <div className="flex flex-col items-center items-center gap-2 mx-auto w-full ">
-      <h1 className="text-4xl">Welcome to Ankelba Daycare</h1>
-      <h2 className="text-xl">
-        Rooted in tradition, wrapped in love. <br />
-        <span className="font-extralight">
-          በባህላችን ላይ የተመሰረተ፣ ፍቅርን የተላበሰ እንክብካቤ።
-        </span>
+    <div className="flex flex-col items-center items-center gap-2 mx-auto w-full p-4">
+      <h1 className="text-4xl font-bold">Welcome to Ankelba Daycare</h1>
+      <h2 className="text-xl font-semibold ">
+        Rooted in tradition, wrapped in love.{" "}
       </h2>
+      <p className="text-xs font-extrathin">
+        በባህላችን ላይ የተመሰረተ፣ ፍቅርን የተላበሰ እንክብካቤ።
+      </p>
     </div>
   );
 };

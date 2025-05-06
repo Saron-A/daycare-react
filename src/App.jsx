@@ -1,6 +1,6 @@
 import React from "react";
 import { SubContainer, Navigation, Header, AboutUs } from "./subcontainer.jsx";
-
+import Programs from "./Programs.jsx";
 const App = () => {
   return (
     <div className="container">
@@ -8,6 +8,7 @@ const App = () => {
       <Navigation />
       <Header />
       <AboutUs />
+      <Programs />
     </div>
   );
 };
