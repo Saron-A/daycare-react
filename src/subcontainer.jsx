@@ -1,5 +1,5 @@
 import React from "react";
-import MotherImage from "./assets/mother-carrying-child.png";
+import ChildrenImage from "./assets/images/happy-kids-studying-and-learning-vector.jpg";
 
 const Navigation = () => {
   return (
@@ -66,7 +66,11 @@ const AboutUs = () => {
         </p>
       </div>
       <div className="w-full">
-        <img src={MotherImage} alt="" className="h-80 w-full object-fit p-4" />
+        <img
+          src={ChildrenImage}
+          alt=""
+          className="h-80 w-full object-fit p-4"
+        />
       </div>
     </div>
   );

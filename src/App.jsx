@@ -1,6 +1,7 @@
 import React from "react";
 import { SubContainer, Navigation, Header, AboutUs } from "./subcontainer.jsx";
 import Programs from "./Programs.jsx";
+import Contact from "./Contact.jsx";
 const App = () => {
   return (
     <div className="container">
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <AboutUs />
       <Programs />
+      <Contact />
     </div>
   );
 };

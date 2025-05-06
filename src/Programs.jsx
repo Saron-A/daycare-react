@@ -24,7 +24,7 @@ const Programs = () => {
           <p>Early literacy, social skills, and school readiness.</p>
         </div>
       </div>
-      <button className="border rounded-2xl w-fit self-center p-2">
+      <button className="border rounded-2xl w-fit self-center py-2 px-8">
         Learn more
       </button>
     </div>
